@@ -1,9 +1,6 @@
 
-# tiny shakespeare
+# run instructions
 
-Tiny shakespeare, of the good old char-rnn fame :)
-
-After running `prepare.py`:
-
-- train.bin has 301,966 tokens
-- val.bin has 36,059 tokens
+# First, run python data/wikitext_103/prepare.py and python data/wikitext2/prepare.py to preprocess and ready the data
+# Then, run python train.py config/train_gpt2.py with desired hyperparameters
+# Finally, run python sample.py with desired parameters
