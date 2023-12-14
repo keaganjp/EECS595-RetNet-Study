@@ -13,9 +13,9 @@ if __name__ == '__main__':
     dataset = load_dataset("wikitext", "wikitext-103-raw-v1")
     dataset['val'] = dataset.pop('validation')
 
-    for split in ['train', 'validation', 'test']:
+    for split in ['train', 'val', 'test']:
         dataset[split] = dataset[split].filter(lambda x: len(x['text']) > 0)
-        
+
     train_split = dataset["train"].train_test_split(test_size=2/3)
 
     dataset["train"] = train_split["train"]
