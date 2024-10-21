@@ -1,7 +1,3 @@
-Here's the revised README reflecting the **pretraining on Wikitext** and **fine-tuning on the Shakespeare dataset**:
-
----
-
 # **EECS 595 Project: RetNet Study and Implementation**
 
 ## 📋 **Overview**  
