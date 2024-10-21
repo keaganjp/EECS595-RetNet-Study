@@ -15,7 +15,6 @@ from yet_another_retnet.retention import (
 class RetNetDecoderLayer(nn.Module):
     # NOTE: Mostly pulled from 'nn.TransformerDecoderLayer', but with changes:
     #   - use MultiScaleRetention instead of MultiheadAttention
-    #   - no cross-attention layer, since retention doesn't play well with that
 
     def __init__(
         self,
