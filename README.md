@@ -1,7 +1,7 @@
-# **EECS 595 Project: RetNet Study and Implementation**
+# **RetNet Study and Implementation**
 
 ## 📋 **Overview**  
-This project, part of the **EECS 595 course**, explores the **RetNet** model architecture and implements models from scratch, inspired by **nanoGPT**. We performed **pretraining** on the **Wikitext-2** and **Wikitext-103** datasets, followed by **fine-tuning** on the **Shakespeare dataset** to adapt the model for literary text generation.
+This project explores the **RetNet** model architecture and implements models from scratch, inspired by **nanoGPT**. We performed **pretraining** on the **Wikitext-2** and **Wikitext-103** datasets, followed by **fine-tuning** on the **Shakespeare dataset** to adapt the model for literary text generation.
 
 ### 🔗 **Collaborators**
 - [@keaganjp](https://github.com/keaganjp)  
